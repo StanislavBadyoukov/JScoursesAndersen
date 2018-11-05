@@ -1,0 +1,40 @@
+//Uno
+function Comp1(a, b) {
+  if (a > b) {
+    return true;
+  } else {
+    return false;
+  }
+}
+        var a = prompt ('A?', '');
+        var b = prompt ('В?', '');
+       
+         alert(min(a,b));
+
+ //Dos
+function showLine(inputText){
+    return "Вы ввели "+inputText;
+}
+ //Tres
+function Comp2(a){
+    if (a === null || a === undefined){
+        console.log("нормально, является");
+    } else {
+        console.log("всё классно, но переделай, не является");
+    }
+}
+ //Cuatro
+function addProp(object){
+    object.checked = true;
+}
+ //Cinco
+function tydasuda(a) {
+   
+    for (i = a; i > 0; i--){
+        console.log(i);    
+    }
+   
+    for (i = 0; i <= a; i++){
+        console.log(i);
+    }    
+ } 

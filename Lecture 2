@@ -9,7 +9,7 @@ function Comp1(a, b) {
         var a = prompt ('A?', '');
         var b = prompt ('В?', '');
        
-         alert(min(a,b));
+         alert(Comp1(a,b));
 
  //Dos
 function showLine(inputText){

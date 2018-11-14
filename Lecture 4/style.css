@@ -1,0 +1,48 @@
+.calculator {
+  width: 632px;
+  height: 354px;
+  padding: 10px 30px;
+
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.numbers-block,
+.left-operators-block {
+  height: 134px;
+
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  flex: 1 1 33%;
+  height: 67px;
+}
+
+.btn-clear {
+  height: 50px;
+  margin: 1px;
+}
+
+.history {
+  display: flex;
+  flex-flow: column;
+
+  min-width: 30px;
+  min-height: 105px;
+}
+
+.input-wrapper {
+  flex: 1 1 100%;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-wrapper input {
+  width: 89%;
+  height: 50px;
+}
